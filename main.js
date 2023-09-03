@@ -1,6 +1,8 @@
 const chineseBiscuit = document.querySelector("#chinese-biscuit");
 const biscuitPhrase = document.querySelector("#biscuit-phrase");
 const btnNewBiscuit = document.querySelector("#btn-new-biscuit");
+const screen1 = document.querySelector(".screen1")
+const screen2 = document.querySelector(".screen2")
 const phrases = [
   "O sucesso não é o destino, é uma jornada.",
   "Você é a única limitação em sua busca por grandeza.",
@@ -40,11 +42,16 @@ function generateNewPhrase() {
 }
 
 function changeScreen() {
-  document.querySelector(".screen1").classList.toggle("hide");
-  document.querySelector(".screen2").classList.toggle("hide");
+  screen1.classList.toggle("hide");
+  screen2.classList.toggle("hide");
 }
 
 chineseBiscuit.addEventListener("click", generateNewPhrase);
 btnNewBiscuit.addEventListener("click", changeScreen);
-
-
+document.addEventListener("keydown", (e) => {
+  if (e.key == 'Enter' && screen1.classList.contains('hide')) {
+    changeScreen()
+  } else if (e.key == 'Enter' && screen2.classList.contains('hide')) {
+    generateNewPhrase()
+  }
+})
