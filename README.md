@@ -2,10 +2,10 @@
     <h1><b>🍪 Chineses Biscuit</b></h1>
     <p>Gerador de Biscoitos Chinenes</p>
 
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diogo-kappaun/chinese-biscuit/?style=flat-square&label=Languages&labelColor=%23404040&color=%23BFBFBF">
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/diogo-kappaun/chinese-biscuit/?style=flat-square&label=Size&labelColor=%23404040&color=%23BFBFBF">
-<img alt="GitHub" src="https://img.shields.io/github/license/diogo-kappaun/chinese-biscuit/?style=flat-square&labelColor=%23404040&color=%23BFBFBF">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/diogo-kappaun/chinese-biscuit/?style=flat-square&label=Stars&labelColor=%23404040&color=%23BFBFBF">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/diogo-kappaun/chinese-biscuit?style=flat-square&label=Languages&labelColor=%23404040&color=%23BFBFBF">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/diogo-kappaun/chinese-biscuit?style=flat-square&label=Size&labelColor=%23404040&color=%23BFBFBF">
+<img alt="GitHub" src="https://img.shields.io/github/license/diogo-kappaun/chinese-biscuit?style=flat-square&labelColor=%23404040&color=%23BFBFBF">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/diogo-kappaun/chinese-biscuit?style=flat-square&label=Stars&labelColor=%23404040&color=%23BFBFBF">
 
 </div>
 
